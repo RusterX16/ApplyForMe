@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Calibri", sans-serif;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+form input, form label {
+    margin: 8px;
+    width: max-content;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+#letter {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    padding: 32px;
+    width: 21cm;
+    height: 29.7cm;
+}
+
+#letter > * {
+    margin: 32px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sender {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+#recipient {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    /*margin-left: 70%;*/
+}
+
+#subject {
+    margin: 64px 32px 32px 32px;
+}
+
+#core {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
